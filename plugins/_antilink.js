@@ -7,13 +7,13 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
   let isGroupLink = linkRegex.exec(m.text)
 
   if (chat.antiLink && isGroupLink) {
-    await m.reply(`*「 ANTI LINK 」*\n\nDetected *${await conn.getName(m.sender)}* you have sent the group link!\n\nSorry you will be kicked from this group byee!`)
+    await m.reply(`*「 ANTI LINK 」*\n\nDetected *${await conn.getName(m.sender)}*Sok Asik Anj\n\nKick Sabi Kali`)
     if (isAdmin) return m.reply('*wah anjir , situ admin gabisa dikik 😢. hehe..*')
     if (!isBotAdmin) return m.reply('*Bot nya bukan admin, mana bisa ngekik 😐*')
     let linkGC = ('https://chat.whatsapp.com/' + await conn.groupInviteCode(m.chat))
     let isLinkconnGc = new RegExp(linkGC, 'i')
     let isgclink = isLinkconnGc.test(m.text)
-    if (isgclink) return m.reply('*「 ANTI LINK 」*\n\nItu Dilarang❗, Sok Asik Bocil Sharelink-_')
+    if (isgclink) return m.reply('*「 ANTI LINK 」*\n\nItu Dilarang❗, ini gclu sendiri Anjj')
     await conn.groupParticipantsUpdate(m.chat, [m.sender], "remove")
   }
   return true
