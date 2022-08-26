@@ -1,4 +1,4 @@
-# AzzBot-MD
+# 𝘾𝙝𝙞𝙨𝙖𝙩𝙤-𝘽𝙤𝙩𝙯𝙯
 
 Work Heroku
 No Enc 98%
@@ -7,8 +7,8 @@ On 24 Jam
 Anti Dilay
 
 # Sc No enc?
-Buy Chat me 081511480762
+Buy Chat me 085172446692
 
-# MBY•OFFICIAL
+# 𝙇𝙀𝙑𝙄 𝙓𝙃𝙄𝘼𝙊
 
-Jangan Lupa Subscribe ya 
+NOTE: JIKA SCRIPT INI KETAUAN DI JUAL MAKA AKAN DI HAPUS!
