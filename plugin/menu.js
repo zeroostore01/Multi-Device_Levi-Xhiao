@@ -59,7 +59,7 @@ const defaultMenu = {
   body: '│ ○ %cmd %islimit %isPremium',
   footer: '▣────────────⬣\n',
   after: `*Recode by*
-*𝙇𝙀𝙑𝙄 𝙓𝙃𝙄𝘼𝙊* | %version
+*𝒁 𝑬 𝑹 𝑶* | %version
 ${'```%npmdesc```'}
 `,
 }
@@ -206,7 +206,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            {
              quickReplyButton: {
                displayText: '📳SewaBot',
-               id: '.sc',
+               id: '.owner',
              }
            }]
          }
