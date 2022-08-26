@@ -14,7 +14,7 @@ Berapapun donasi kalian akan sangat berarti 👍
 
 Contact person Owner:
 wa.me/6281511480762 (Owner)`
-let message = await prepareWAMessageMedia({ image: {url: 'https://i.postimg.cc/C1BfTNk2/6bfc0fa448e61d8f7fe5323fcfd28518.jpg' }}, { upload: conn.waUploadToServer })
+let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/ba6d17256c87499e83bb7.jpg' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
@@ -24,14 +24,14 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://i.postimg.cc/C
            hydratedButtons: [{
              urlButton: {
                displayText: '🏧 Dana',
-               phoneNumber: '085172446692'
+               phoneNumber: '085784914140'
              }
 
            },
                {
              callButton: {
-               displayText: 'Pulsa BYU',
-               phoneNumber: '085172446692'
+               displayText: 'Pulsa',
+               phoneNumber: '083830815715'
              }
            },           
                {
