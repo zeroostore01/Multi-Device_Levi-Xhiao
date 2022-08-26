@@ -24,14 +24,14 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://i.postimg.cc/C
            hydratedButtons: [{
              urlButton: {
                displayText: '🏧 Dana',
-               phoneNumber: '081511480762'
+               phoneNumber: '085172446692'
              }
 
            },
                {
              callButton: {
-               displayText: 'Gopay',
-               phoneNumber: '081511480762'
+               displayText: 'Pulsa BYU',
+               phoneNumber: '085172446692'
              }
            },           
                {
