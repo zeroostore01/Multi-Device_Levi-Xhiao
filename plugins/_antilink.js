@@ -13,7 +13,7 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
     let linkGC = ('https://chat.whatsapp.com/' + await conn.groupInviteCode(m.chat))
     let isLinkconnGc = new RegExp(linkGC, 'i')
     let isgclink = isLinkconnGc.test(m.text)
-    if (isgclink) return m.reply('*「 ANTI LINK 」*\n\nItu Dilarang❗, Maaf kamu akan saya kik.\nKarena kirim Link👍')
+    if (isgclink) return m.reply('*「 ANTI LINK 」*\n\nItu Dilarang❗, Sok Asik Bocil Sharelink-_')
     await conn.groupParticipantsUpdate(m.chat, [m.sender], "remove")
   }
   return true
